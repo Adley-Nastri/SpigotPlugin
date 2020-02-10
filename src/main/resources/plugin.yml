@@ -1,0 +1,14 @@
+name: FirstPlugin
+version: ${project.version}
+main: me.aspergian.firstplugin.FirstPlugin
+authors: [Aspergian]
+description: First Plugin
+commands:
+  givebandage:
+    description: Gives a bandage
+    usage: /<command> <amount> <player>
+    aliases: [gb,givebandaid,plaster]
+  myhp:
+    description: Show your current HP
+    usage: /myhp
+    aliases: [hp]
